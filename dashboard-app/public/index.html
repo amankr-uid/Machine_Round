@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/nice-select.css">
+  <link rel="stylesheet" href="css/dropzone.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/admin-one.css">
+  <link rel="stylesheet" href="css/project.css">
+</head>
+
+<body>
+
+  <div id="root">
+    
+  </div>
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/apexcharts.min.js"></script>
+  <script src="js/custom-chart.js"></script>
+  <script src="js/jquery.nice-select.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="js/dropzone.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- <section class="sidebar">
+
+    <div class="sidebar-container">
+
+      <div class="navigation">
+
+        <ul>
+          <li>
+            <a href="admin-one.html">
+              <span>
+                <img src="img/logo-11.png" alt="logo">
+              </span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="admin-one.html">
+              <span class="icon">
+                <ion-icon name="speedometer-outline"></ion-icon>
+              </span>
+              <span class="title">dashboard</span>
+            </a>
+          </li>
+          <li class="hovered">
+            <a href="project.html">
+              <span class="icon">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </span>
+              <span class="title">projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="create-outline"></ion-icon>
+              </span>
+              <span class="title">tasks</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="clipboard-outline"></ion-icon>
+              </span>
+              <span class="title">kanban</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </span>
+              <span class="title">calendar</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="people-outline"></ion-icon>
+              </span>
+              <span class="title">contacts</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="chatbox-outline"></ion-icon>
+              </span>
+              <span class="title">messages</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="cube-outline"></ion-icon>
+              </span>
+              <span class="title">products</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="reader-outline"></ion-icon>
+              </span>
+              <span class="title">invoices</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="document-outline"></ion-icon>
+              </span>
+              <span class="title">fill browser</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="notifications-outline"></ion-icon>
+              </span>
+              <span class="title">notifications</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="bar-chart-outline"></ion-icon>
+              </span>
+              <span class="title">report</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <span class="icon">
+                <ion-icon name="help-outline"></ion-icon>
+              </span>
+              <span class="title">help center</span>
+            </a>
+          </li>
+        </ul>
+        <div class="toggle-mob">
+          <ion-icon name="menu-outline"></ion-icon>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="project-page-chart">
+
+
+      <div class="chart-title">
+        <div class="chart-title-text">
+          <img src="img/logo-11.png" alt="logo">
+          <div>
+            <h5>whiteui.store llc</h5>
+            <p>8484 ross wells</p>
+          </div>
+        </div>
+        <div class="chart-dropdown">
+          <div class="dropdown">
+            <button class="dropdown-btn" type="button">
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="progress-wrapper">
+
+        <h5>Overview</h5>
+
+        <div class="progress-block">
+          <div class="progress-text">
+            <div>
+              <h6>Sales</h6>
+              <p>Week Comparison</p>
+            </div>
+            <div class="progress-value">
+              <span>1.345
+                <ion-icon name="arrow-up-outline" class="green-up-arrow"></ion-icon>
+              </span>
+            </div>
+          </div>
+          <div class="progress animated-progess">
+            <div class="progress-bar progress-sm progress-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-block">
+          <div class="progress-text">
+            <div>
+              <h6>Leads</h6>
+              <p>Month Comparison</p>
+            </div>
+            <div class="progress-value">
+              <span>3.820
+                <ion-icon name="arrow-down-outline" class="red-down-arrow"></ion-icon>
+              </span>
+            </div>
+          </div>
+          <div class="progress animated-progess">
+            <div class="progress-bar progress-sm progress-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-block">
+          <div class="progress-text">
+            <div>
+              <h6>Income</h6>
+              <p>Week Comparison</p>
+            </div>
+            <div class="progress-value">
+              <span>$4690
+                <ion-icon name="arrow-up-outline" class="green-up-arrow"></ion-icon>
+              </span>
+            </div>
+          </div>
+          <div class="progress animated-progess">
+            <div class="progress-bar progress-sm progress-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-block">
+          <div class="progress-text">
+            <div>
+              <h6>Spendings</h6>
+              <p>Month Comparison</p>
+            </div>
+            <div class="progress-value">
+              <span>$3820
+                <ion-icon name="arrow-down-outline" class="red-down-arrow"></ion-icon>
+              </span>
+            </div>
+          </div>
+          <div class="progress animated-progess">
+            <div class="progress-bar progress-sm progress-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chart-block">
+        <div class="chart">
+          <div id="column-chart" class="apex-charts" dir="ltr"></div>
+        </div>
+        <div class="bottom-block">
+          <div class="task">
+            <span><strong>$342.000</strong></span>
+            <p>total sales</p>
+          </div>
+
+          <div class="budget">
+            <span><strong>$200.000</strong></span>
+            <p>Spendings</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="main">
+      <div class="topbar">
+
+        <div class="toggle-block">
+          <div class="toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+          <h6>Projects</h6>
+        </div>
+
+        <div class="search">
+          <a href="javascript:void(0)">
+            <ion-icon name="search-outline"></ion-icon>
+          </a>
+          <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <ion-icon name="add-circle-outline"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <div class="project-wrapper">
+        <div class="container-fluid p-0">
+          <div class="row">
+
+            <div class="col-md-12">
+              <div class="project-header">
+                <div class="button-block d-none d-sm-block">
+                  <button class="icon-btn">
+                    <ion-icon name="list-outline"></ion-icon> List
+                  </button>
+                  <button class="icon-btn">
+                    <ion-icon name="grid-outline"></ion-icon> Grid
+                  </button>
+                </div>
+                <div class="button-block d-flex d-sm-none">
+                  <button class="btn list-btn">
+                    <ion-icon name="list-outline" class="me-0"></ion-icon>
+                  </button>
+                  <button class="btn list-btn ms-2">
+                    <ion-icon name="grid-outline" class="me-0"></ion-icon>
+                  </button>
+                </div>
+                <div class="filter-drop">
+                  <label>
+                    <ion-icon name="funnel-outline"></ion-icon> Sort:
+                  </label>
+                  <form>
+                    <select>
+                      <option>A-Z</option>
+                      <option>Z-A</option>
+                    </select>
+                  </form>
+                </div>
+              </div>
+
+              <div class="table-responsive list-table">
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th>
+                        <div class="project-sort">
+                          <h6>Projects</h6>
+                          <a href="javascript:void(0)"><span><i class="bi bi-sort-alpha-down"></i></span></a>
+                        </div>
+                      </th>
+
+                      <th>
+                        <div class="members-sort">
+                          <h6>Members</h6>
+                          <a href="javascript:void(0)"><span><i class="bi bi-sort-numeric-down"></i></span></a>
+                        </div>
+                      </th>
+
+                      <th>
+                        <div class="task-sort">
+                          <h6>Tasks</h6>
+                          <a href="javascript:void(0)"><span><i class="bi bi-sort-numeric-down"></i></span></a>
+                        </div>
+                      </th>
+
+                      <th>
+                        <div class="due-sort">
+                          <h6>Due Date</h6>
+                          <a href="javascript:void(0)"><span><i class="bi bi-sort-numeric-down"></i></span></a>
+                        </div>
+                      </th>
+
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">
+                        <div class="list-icon-flex">
+                          <div class="d-flex">
+                            <div class="flex-shrink-0 list-flex-icon">
+                              <a href="javascript:void(0)">
+                                <span>
+                                  <ion-icon name="logo-dribbble"></ion-icon>
+                                </span>
+                              </a>
+                            </div>
+                            <div class="flex-grow-1 ms-3 list-flex-text">
+                              <h5 class="inactive-title">Dribble Website</h5>
+                              <p>Development</p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="members-list">
+                          <ul>
+                            <li>
+                              <a href="javascript:void(0)"><img src="img/person-1.png" alt="">
+                              </a>
+                            </li>
+                            <li>
+                              <a href="javascript:void(0)"><img src="img/person-2.png" alt="">
+                              </a>
+                            </li>
+                            <li>
+                              <a href="javascript:void(0)"><img src="img/person-3.png" alt="">
+                              </a>
+                            </li>
+                            <li>
+                              <a href="javascript:void(0)"> <span>+5</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="task-count">
+                          <span> <strong>90</strong>/148</span>
+                          <p>tasks</p>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="date-badges">
+                          <span class="badge-sm badge-primary">development</span>
+                          <span class="badge-sm badge-muted">24 feb 2019</span>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="form-check form-switch form-switch-md" dir="ltr">
+                          <input class="form-check-input" type="checkbox" id="SwitchCheckSizemd">
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">
+                        <div class="list-icon-flex">
+                          <div class="d-flex">
+                            <div class="flex-shrink-0 list-flex-icon">
+                              <a href="javascript:void(0)">
+                                <span>
+                                  <ion-icon name="logo-dribbble"></ion-icon>
+                                </span>
+                              </a>
+                            </div>
+                            <div class="flex-grow-1 ms-3 list-flex-text">
+                              <h5>Dribble Website</h5>
+                              <p>Development</p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="members-list">
+                          <ul>
+                            <li>
+                              <a href="javascript:void(0)"><img src="img/person-1.png" alt="">
+                              </a>
+                            </li>
+                            <li>
+                              <a href="javascript:void(0)"><img src="img/person-2.png" alt="">
+                              </a>
+                            </li>
+                            <li>
+                              <a href="javascript:void(0)"><img src="img/person-3.png" alt="">
+                              </a>
+                            </li>
+                            <li>
+                              <a href="javascript:void(0)"> <span>+5</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="task-count">
+                          <span> <strong>90</strong>/148</span>
+                          <p>tasks</p>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="date-badges">
+                          <span class="badge-sm badge-primary">development</span>
+                          <span class="badge-sm badge-muted">24 feb 2019</span>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="form-check form-switch form-switch-md" dir="ltr">
+                          <input class="form-check-input" type="checkbox" id="SwitchCheckSizemd">
+                        </div>
+                      </td>
+
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="grid-view-header">
+                <div class="project-sort">
+                  <h6>Projects</h6>
+                  <a href="javascript:void(0)"><span><i class="bi bi-sort-alpha-down"></i></span></a>
+                </div>
+                <div class="task-sort">
+                  <h6>Tasks</h6>
+                  <a href="javascript:void(0)"><span><i class="bi bi-sort-numeric-down"></i></span></a>
+                </div>
+                <div class="due-sort">
+                  <h6>Due Date</h6>
+                  <a href="javascript:void(0)"><span><i class="bi bi-sort-numeric-down"></i></span></a>
+                </div>
+                <div class="members-sort">
+                  <h6>Members</h6>
+                  <a href="javascript:void(0)"><span><i class="bi bi-sort-numeric-down"></i></span></a>
+                </div>
+              </div>
+              <div class="grid-view">
+                <div class="grid-block">
+
+                  <div class="title-block">
+                    <span>
+                      <ion-icon name="logo-dribbble"></ion-icon>
+                    </span>
+                    <h5>Dribble Website</h5>
+                    <p>Development</p>
+                  </div>
+
+                  <div class="due-block">
+                    <span>Due to 14 mar 2019</span>
+                  </div>
+
+                  <div class="bottom-block">
+                    <div class="task">
+                      <span><strong>20</strong>/45</span>
+                      <p>tasks</p>
+                    </div>
+
+                    <div class="budget">
+                      <span>$3.2k</span>
+                      <p>budget</p>
+                    </div>
+                  </div>
+
+                  <div class="drop-down">
+                    <a href="javascript:void(0)">
+                      <span>
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                      </span>
+                    </a>
+                  </div>
+
+                </div>
+                <div class="grid-block">
+                  <div class="drop-down">
+                    <a href="javascript:void(0)">
+                      <span>
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="title-block">
+                    <span>
+                      <ion-icon name="logo-dribbble"></ion-icon>
+                    </span>
+                    <h5>Dribble Website</h5>
+                    <p>Development</p>
+                  </div>
+
+                  <div class="due-block">
+                    <span>Due to 14 mar 2019</span>
+                  </div>
+
+                  <div class="bottom-block">
+                    <div class="task">
+                      <span><strong>20</strong>/45</span>
+                      <p>tasks</p>
+                    </div>
+
+                    <div class="budget">
+                      <span>$3.2k</span>
+                      <p>budget</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="grid-block">
+                  <div class="drop-down">
+                    <a href="javascript:void(0)">
+                      <span>
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="title-block">
+                    <span>
+                      <ion-icon name="logo-dribbble"></ion-icon>
+                    </span>
+                    <h5>Dribble Website</h5>
+                    <p>Development</p>
+                  </div>
+
+                  <div class="due-block">
+                    <span>Due to 14 mar 2019</span>
+                  </div>
+
+                  <div class="bottom-block">
+                    <div class="task">
+                      <span><strong>20</strong>/45</span>
+                      <p>tasks</p>
+                    </div>
+
+                    <div class="budget">
+                      <span>$3.2k</span>
+                      <p>budget</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="grid-block">
+                  <div class="drop-down">
+                    <a href="javascript:void(0)">
+                      <span>
+                        <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="title-block">
+                    <span>
+                      <ion-icon name="logo-dribbble"></ion-icon>
+                    </span>
+                    <h5>Dribble Website</h5>
+                    <p>Development</p>
+                  </div>
+
+                  <div class="due-block">
+                    <span>Due to 14 mar 2019</span>
+                  </div>
+
+                  <div class="bottom-block">
+                    <div class="task">
+                      <span><strong>20</strong>/45</span>
+                      <p>tasks</p>
+                    </div>
+
+                    <div class="budget">
+                      <span>$3.2k</span>
+                      <p>budget</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="listview-pagination d-none d-sm-flex">
+                <div class="prev-block">
+                  <button>
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                  </button>
+                  <span>Prev</span>
+                </div>
+                <ul>
+                  <li><a href="javascript:void(0)">1</a></li>
+                  <li><a href="javascript:void(0)">2</a></li>
+                  <li><a href="javascript:void(0)" class="active">3</a></li>
+                  <li><a href="javascript:void(0)">4</a></li>
+                  <li><a href="javascript:void(0)">5</a></li>
+                </ul>
+                <div class="next-block">
+                  <span>Next</span>
+                  <button>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </button>
+                </div>
+              </div>
+              <div class="listview-pagination d-flex d-sm-none flex-column">
+
+                <div class="d-flex mb-2">
+                  <div class="prev-block">
+                    <button>
+                      <ion-icon name="chevron-back-outline"></ion-icon>
+                    </button>
+                    <span>Prev</span>
+                  </div>
+                  <div class="next-block ms-5">
+                    <span>Next</span>
+                    <button>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+
+                <ul>
+                  <li><a href="javascript:void(0)">1</a></li>
+                  <li><a href="javascript:void(0)">2</a></li>
+                  <li><a href="javascript:void(0)" class="active">3</a></li>
+                  <li><a href="javascript:void(0)">4</a></li>
+                  <li><a href="javascript:void(0)">5</a></li>
+                </ul>
+
+              </div>
+
+              <div class="gridview-pagination">
+                <div class="items-page">
+                  <form>
+                    <select id="grid-select">
+                      <option>15</option>
+                      <option>10</option>
+                      <option>20</option>
+                      <option>25</option>
+                    </select>
+                    <label>Items Per Page</label>
+                  </form>
+                </div>
+                <div class="grid-pagination-wrapper">
+                  <div class="prev-block">
+                    <button>
+                      <ion-icon name="chevron-back-outline"></ion-icon>
+                    </button>
+                  </div>
+                  <ul class="grid-view-ul">
+                    <li><a href="javascript:void(0)">1</a></li>
+                    <li><a href="javascript:void(0)" class="active">2</a></li>
+                    <li><a href="javascript:void(0)">3</a></li>
+                    <li><a href="javascript:void(0)">4</a></li>
+                    <li><a href="javascript:void(0)">5</a></li>
+                  </ul>
+                  <div class="next-block">
+                    <button>
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="add-project-modal">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="add-project">
+              <h6>create new project</h6>
+              <a href="javascript:void(0)"><span>
+                  <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                </span></a>
+            </div>
+            <div class="name-flex">
+              <div class="d-flex">
+                <div class="flex-shrink-0 name-flex-icon">
+                  <a href="javascript:void(0)"><span>
+                      <ion-icon name="add-outline"></ion-icon>
+                    </span></a>
+                </div>
+                <div class="flex-grow-1 ms-3 name-flex-text">
+                  <h5>Type new project' name</h5>
+                  <p>created on 07 jun 2019</p>
+                </div>
+              </div>
+            </div>
+            <div class="assign-date-block">
+              <div class="assign">
+                <h6>Assigned to</h6>
+                <ul>
+                  <li>
+                    <a href="javascript:void(0)"><img src="img/person-1.png" alt="">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"><img src="img/person-2.png" alt="">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"><img src="img/person-3.png" alt="">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"><img src="img/person-4.png" alt="">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)"><span>
+                        <ion-icon name="add-outline"></ion-icon>
+                      </span></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="date">
+                <h6>Due to</h6>
+                <div class="date-wrapper">
+                  <div class="date-icon">
+                    <span>
+                      <ion-icon name="calendar-outline"></ion-icon>
+                    </span>
+                    <h6>14 Aug 2018</h6>
+                  </div>
+                  <button class="btn date-btn">Spotify</button>
+                </div>
+              </div>
+            </div>
+            <div class="description-block">
+              <h5>Description</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex repudiandae est eligendi, soluta quis autem vel ipsum cum officia explicabo delectus fuga quod aspernatur eum dolor quisquam? Aspernatur itaque, nulla accusamus corrupti nostrum.</p>
+            </div>
+            <div class="file-upload">
+              <h5>Attachments</h5>
+              <form action="#" class="dropzone">
+                <div class="fallback">
+                  <input name="file" type="file" multiple="multiple">
+                </div>
+                <div class="dz-message needsclick">
+                  <div>
+                    <span>
+                      <ion-icon name="document-outline"></ion-icon>
+                    </span>
+                  </div>
+                  <h4>Upload your attachments</h4>
+                </div>
+              </form>
+            </div>
+            <div class="comment">
+              <input type="text" class="form-control comment-form" placeholder="Add Your Comment">
+              <div class="comment-icons">
+                <a href="javascript:void(0)"><span class="pin">
+                    <ion-icon name="attach-outline"></ion-icon>
+                  </span></a>
+                <a href="javascript:void(0)"><span class="send">
+                    <ion-icon name="send-outline"></ion-icon>
+                  </span></a>
+                <button class="btn-send">Send</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer d-none">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script>
+    $(document).ready(function() {
+      $('select').niceSelect();
+      $('#grid-select').niceSelect();
+    });
+
+
+    let toggle = document.querySelector('.toggle');
+    let togglemob = document.querySelector('.toggle-mob');
+    let navigation = document.querySelector('.navigation');
+    let main = document.querySelector('.main');
+    let sidebar_chart = document.querySelector('.project-page-chart');
+
+    toggle.onclick = function() {
+      navigation.classList.toggle('active')
+      main.classList.toggle('active')
+      sidebar_chart.classList.toggle('active')
+    }
+
+    togglemob.onclick = function() {
+      navigation.classList.toggle('active')
+      main.classList.toggle('active')
+    }
+
+    // toggle.onclick = function() {
+    //   sidebar_chart.classList.toggle('active')
+    // }
+
+    let list = document.querySelectorAll('.navigation li');
+
+    function activelink() {
+      list.forEach((item) =>
+        item.classList.remove('hovered'));
+      this.classList.add('hovered');
+    }
+    list.forEach((item) =>
+      item.addEventListener('mouseover', activelink));
+
+
+
+    (chart = new ApexCharts(
+      document.querySelector("#column_chart"),
+      options
+    )).render();
+    options = {
+      chart: {
+        height: 350,
+        type: "bar",
+        toolbar: {
+          show: !1
+        }
+      },
+      plotOptions: {
+        bar: {
+          dataLabels: {
+            position: "top"
+          }
+        }
+      },
+      dataLabels: {
+        enabled: !0,
+        formatter: function(e) {
+          return e + "%";
+        },
+        offsetY: -22,
+        style: {
+          fontSize: "12px",
+          colors: ["#304758"]
+        },
+      },
+      series: [{
+        name: "Inflation",
+        data: [2.5, 3.2, 5, 10.1, 4.2, 3.8, 3, 2.4, 4, 1.2, 3.5, 0.8],
+      }, ],
+      colors: ["#556ee6"],
+      grid: {
+        borderColor: "#f1f1f1"
+      },
+      xaxis: {
+        categories: [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec",
+        ],
+        position: "top",
+        labels: {
+          offsetY: -18
+        },
+        axisBorder: {
+          show: !1
+        },
+        axisTicks: {
+          show: !1
+        },
+        crosshairs: {
+          fill: {
+            type: "gradient",
+            gradient: {
+              colorFrom: "#D8E3F0",
+              colorTo: "#BED1E6",
+              stops: [0, 100],
+              opacityFrom: 0.4,
+              opacityTo: 0.5,
+            },
+          },
+        },
+        tooltip: {
+          enabled: !0,
+          offsetY: -35
+        },
+      },
+      fill: {
+        gradient: {
+          shade: "light",
+          type: "horizontal",
+          shadeIntensity: 0.25,
+          gradientToColors: void 0,
+          inverseColors: !0,
+          opacityFrom: 1,
+          opacityTo: 1,
+          stops: [50, 0, 100, 100],
+        },
+      },
+      yaxis: {
+        axisBorder: {
+          show: !1
+        },
+        axisTicks: {
+          show: !1
+        },
+        labels: {
+          show: !1,
+          formatter: function(e) {
+            return e + "%";
+          },
+        },
+      },
+      title: {
+        text: "Monthly Inflation in Argentina, 2002",
+        floating: !0,
+        offsetY: 330,
+        align: "center",
+        style: {
+          color: "#444",
+          fontWeight: "500"
+        },
+      },
+    };
+  </script> -->
+
+</body>
+
+</html>
